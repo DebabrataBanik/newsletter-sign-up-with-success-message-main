@@ -183,7 +183,7 @@ input.error{
   }
 }
 
-@media (min-width: 600px){
+@media (min-width: 568px){
 
   .wrapper{
     min-height: 100vh;
