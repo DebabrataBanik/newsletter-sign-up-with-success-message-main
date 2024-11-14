@@ -1,21 +1,25 @@
 import SuccessCard from "./components/SuccessCard"
 import Signup from "./components/Signup"
 import { useState } from "react"
+import { FormProvider } from "./context/form"
 
 function App() {
 
-  const [isFormValid, setIsFormValid] = useState(false)
+  const [isValid, setValid] = useState(false)
   const [mail, setMail] = useState('')
+
   return (
-    <main className="wrapper">
+    <FormProvider value={{ mail, setValid, setMail }}>
+      <main className="wrapper">
 
-      {
-        !isFormValid ? (
-          <Signup setIsFormValid={setIsFormValid} setMail={setMail} />
-        ) : <SuccessCard mail={mail} />
-      }
+        {
+          !isValid ? (
+            <Signup />
+          ) : <SuccessCard />
+        }
 
-    </main>
+      </main>
+    </FormProvider>
   )
 }
 

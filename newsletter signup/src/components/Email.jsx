@@ -1,9 +1,9 @@
+import useForm from "../context/form"
 import { useState } from "react"
 
-function Email({
-  setValid,
-  setMail
-}) {
+function Email() {
+
+  const { setValid, setMail } = useForm()
 
   const [email, setEmail] = useState('')
   const [error, setError] = useState('')

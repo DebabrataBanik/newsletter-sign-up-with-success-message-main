@@ -1,8 +1,5 @@
 import Email from "./Email"
-function Signup({
-  setIsFormValid,
-  setMail
-}) {
+function Signup() {
   return (
     <div className="container">
       <section>
@@ -14,7 +11,7 @@ function Signup({
           <li><img src="/assets/images/icon-list.svg" alt="list icon" /> And much more!</li>
         </ul>
 
-        <Email setValid={setIsFormValid} setMail={setMail} />
+        <Email />
 
       </section>
       <aside>

@@ -1,5 +1,9 @@
+import useForm from "../context/form"
 
-function SuccessCard({ mail }) {
+function SuccessCard() {
+
+  const { mail } = useForm()
+
   return (
     <div className="success__card">
 
