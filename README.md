@@ -12,7 +12,6 @@ Thanks for checking out my solution.
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
-- [Continued Development](#continued-development)
 
 ### The Challenge
 
@@ -28,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![alt text](design/desktop-preview.jpg)
+![alt text](<newsletter signup/design/desktop-preview.jpg>)
 
 ### Links
 
 - [Live Site URL](https://debabratabanik.github.io/newsletter-sign-up-with-success-message-main/)
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-main-faea66ejER)
 
 ### Built with
 
@@ -42,3 +41,5 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- ReactJs
+
